@@ -1,0 +1,3 @@
+if fails
+remove ultrasnow, reboot, reinstall
+if still, redo with mobile substrate

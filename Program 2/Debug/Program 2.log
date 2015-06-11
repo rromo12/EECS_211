@@ -1,0 +1,24 @@
+﻿Build started 1/30/2013 7:26:05 PM.
+Project "D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Program 2\Program 2.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Program 2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+  main.cpp
+d:\users\romo\documents\visual studio 2010\projects\program 2\program 2\main.cpp(54): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\users\romo\documents\visual studio 2010\projects\program 2\program 2\main.cpp(69): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+d:\users\romo\documents\visual studio 2010\projects\program 2\program 2\main.cpp(69): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Debug\Program 2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Program 2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Debug\Program 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Debug\Program 2.lib" /MACHINE:X86 Debug\main.obj
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Program 2.vcxproj -> D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Debug\Program 2.exe
+Manifest:
+  D:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Debug\Program 2.exe;#1" /manifest "Debug\Program 2.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  Deleting file "Debug\Program 2.unsuccessfulbuild".
+  Touching "Debug\Program 2.lastbuildstate".
+Done Building Project "D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 2\Program 2\Program 2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81

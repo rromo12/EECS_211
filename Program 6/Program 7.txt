@@ -1,0 +1,33 @@
+Program 7 
+
+struct- default public 
+	usually no functions
+	declared just like a class
+
+struct fileDescriptor {
+	char array[8]
+	int 
+	int 
+
+}
+
+only the disk drive can access the bits directly 
+
+filedescriptor 6 
+
+block N/4
+position N%4
+
+char *buff[64]
+
+fileDescripter *fd
+fd= ((filedescriptor *)buff)+pos
+
+fd-> array
+
+format
+for fd = ((filedesciptor *)buf); fd < ((filedesciptor *)buf)+3; fd++)
+blanks, -1 -1 
+
+
+buffer should be in

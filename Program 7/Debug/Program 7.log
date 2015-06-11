@@ -1,0 +1,32 @@
+﻿Build started 3/16/2013 7:56:58 PM.
+Project "D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Program 7\Program 7.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Program 7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt machines.cpp main.cpp system_utilities.cpp
+  machines.cpp
+d:\users\romo\documents\visual studio 2010\projects\program 7\program 7\machines.cpp(108): warning C4101: 'temp' : unreferenced local variable
+  Generating Code...
+  Compiling...
+  system_utilities.cpp
+d:\users\romo\documents\visual studio 2010\projects\program 7\program 7\system_utilities.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Debug\Program 7.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Program 7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Debug\Program 7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Debug\Program 7.lib" /MACHINE:X86 Debug\disk_drive.obj
+  Debug\machines.obj
+  Debug\main.obj
+  Debug\system_utilities.obj
+disk_drive.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Program 7.vcxproj -> D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Debug\Program 7.exe
+Manifest:
+  D:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Debug\Program 7.exe;#1" /manifest "Debug\Program 7.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  Deleting file "Debug\Program 7.unsuccessfulbuild".
+  Touching "Debug\Program 7.lastbuildstate".
+Done Building Project "D:\Users\Romo\Documents\Visual Studio 2010\Projects\Program 7\Program 7\Program 7.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.43

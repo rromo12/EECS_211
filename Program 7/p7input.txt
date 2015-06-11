@@ -1,0 +1,19 @@
+add_network_node PC pc1 4096 Larry
+add_network_node PC pc2 384 Julia
+system_status
+create_file pc1 f1 20
+create_file pc1 f2 70
+create_file pc1 f3 70
+create_file pc2 help 200
+create_file pc2 dear_mom 5397
+create_file pc3 ouch 100
+create_file pc1 f4 20
+create_file pc1 f5 70
+create_file pc1 f6 70
+create_file pc1 f7 20
+create_file pc1 f8 70
+create_file pc1 f9 70
+ls pc1
+ls pr2
+ls pc2
+halt

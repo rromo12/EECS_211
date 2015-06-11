@@ -1,0 +1,34 @@
+add_network_node PC pc1 4096 Robert
+add_network_node printer pr1 2048 5
+add_network_node server s1 8192 M351TECH
+add_network_node PC pc2 384 Jane
+system_status
+add_network_node server s2 4000 LIB_b21
+add_network_node PC pc3 500 John
+system_status
+add_network_node server s3 6400 FORD3_327
+add_network_node printer pr2 512 15
+system_status
+add_network_node xyz "wrong type" 4096 "who knows"
+add_network_node PC "larrys PC" 4096 henschen
+add_network_node PC "Debs PC" 4096 Deb
+add_network_node PC "Marys laptop" 4096 Marilynn
+add_network_node PC "one last time" 4096 "who knows"
+system_status
+delete_network_node pr1
+delete_network_node pc3
+delete_network_node pr1
+system_status
+delete_network_node pc1
+delete_network_node s1
+delete_network_node pc2
+system_status
+delete_network_node "Debs PC"
+delete_network_node "larrys PC"
+delete_network_node pr2
+system_status
+delete_network_node s2
+delete_network_node s3
+delete_network_node pr2
+system_status
+halt
